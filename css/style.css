@@ -1,0 +1,277 @@
+body{
+    background: #DEB6AB;
+}
+
+/*  */
+header{
+    width: 100%;
+    position: relative;
+    background: url("../img/fondoborbuja.png") no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    opacity: 80%;
+}
+/* whatsapp */
+#whats{
+    font-size: 70px;
+    position: fixed;
+    right: 10px;
+    top: 80%;
+    z-index: 9999;
+}
+
+/* hero parte principal */
+.bg-portafolio{
+    background: transparent;
+    border-bottom: 2pxx solid #AC7D88 ;
+}
+
+.bg-portafolio ul li a {
+    color: aliceblue;
+}
+
+.bg-portafolio ul li a:hover{
+    color: black;
+}
+
+#hero{
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+/* estilo de textos del hero */
+#hero h1{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#hero p{
+    color: rgb(63, 55, 55);
+    font-size: 22px;
+}
+
+/* main estructuras para ellos */
+
+#portafolio{
+    width: 100%;
+    position: relative;
+    background: #AC7D88;
+    padding:140px;
+
+}
+
+.img2 {
+    height: 60%;
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 60px;
+    box-shadow: 15px 15px rgb(35, 34, 34);
+}
+
+.txex{
+    margin-top: 90px;
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+#expo{
+    background-color: #814e5a;
+    height: 500px;
+}
+/* todo esto es del carousel */
+#Perfil{
+    
+    width: 100%;
+    height: 400px;
+}
+
+#Perfil .bgcarousel{
+    width: 80%;
+}
+
+#Perfil img{
+    width: 100%;
+    height: 400px;
+}
+
+#Perfil h2{
+    transform: rotate(-0.25turn);
+    margin-top: 142px;
+    width: 359px;
+    margin-left: -79px;
+}
+/* estudios */
+#estudios{
+    background-color: #814e5a;
+    height: 500px;
+}
+
+#Perfil h5{
+    color: black;
+    background-color: rgb(160, 187, 187);
+}
+
+#Perfil p{
+    color: black;
+    background-color: rgb(172, 211, 211);
+}
+
+#estudios{
+    font-size: 25px;
+    text-align: center;
+}
+
+#estudios .contet{
+     padding-top: 200px;
+}
+
+.txm{
+    margin-top: 80px;
+}
+
+#form{
+    height: 500px;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px){ 
+
+    body{
+        background: #DEB6AB;
+    }
+    
+    /*  */
+    header{
+        width: 100%;
+        position: relative;
+        background: url("../img/fondoborbuja.png") no-repeat;
+        background-position-x: left;
+        background-position-y: top;
+        opacity: 80%;
+    }
+    /* whatsapp */
+    #whats{
+        font-size: 70px;
+        position: fixed;
+        right: 10px;
+        top: 80%;
+        z-index: 9999;
+    }
+    
+    /* hero parte principal */
+    .bg-portafolio{
+        background: transparent;
+        border-bottom: 2pxx solid #AC7D88 ;
+    }
+    
+    .bg-portafolio ul li a {
+        color: aliceblue;
+    }
+    
+    .bg-portafolio ul li a:hover{
+        color: black;
+    }
+    
+    #hero{
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    
+    /* estilo de textos del hero */
+    #hero h1{
+        color: black;
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    #hero p{
+        color: rgb(63, 55, 55);
+        font-size: 22px;
+    }
+    
+    /* main estructuras para ellos */
+    
+    #portafolio{
+        width: 100%;
+        position: relative;
+        background: #AC7D88;
+        padding:140px;
+    
+    }
+    
+    .img2 {
+        height: 60%;
+        width: 40%;
+        margin-left: 150px;
+        margin-top: 50px;
+        border-radius: 60px;
+        box-shadow: 15px 15px rgb(35, 34, 34);
+    }
+    
+    .txex{
+        margin-top: 90px;
+        margin-right: 80px;
+        font-size: 18px;
+    }
+    
+    #expo{
+        background-color: #814e5a;
+        height: 500px;
+    }
+    /* todo esto es del carousel */
+    #Perfil{
+        
+        width: 100%;
+        height: 400px;
+    }
+    
+    #Perfil .bgcarousel{
+        width: 80%;
+    }
+    
+    #Perfil img{
+        width: 100%;
+        height: 400px;
+    }
+    
+    #Perfil h2{
+        transform: rotate(-0.25turn);
+        margin-top: 142px;
+        width: 359px;
+        margin-left: -79px;
+    }
+    /* estudios */
+    #estudios{
+        background-color: #814e5a;
+        height: 500px;
+    }
+    
+    #Perfil h5{
+        color: black;
+        background-color: rgb(160, 187, 187);
+    }
+    
+    #Perfil p{
+        color: black;
+        background-color: rgb(172, 211, 211);
+    }
+    
+    #estudios{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #estudios .contet{
+         padding-top: 200px;
+    }
+    
+    .txm{
+        margin-top: 80px;
+    }
+    
+    #form{
+        height: 500px;
+    }
+}
